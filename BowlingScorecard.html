@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* seudo-class example */
+        tr:hover {
+            background-color: #d1ecf1;
+            cursor: pointer;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Bowling Scorecard</h1>
+    <table>
+        <tr>
+            <th>Player</th>
+            <th>Frame 1</th>
+            <th>Frame 2</th>
+            <th>Frame 3</th>
+            <th>Frame 4</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>8</td>
+            <td>9</td>
+            <td>7</td>
+            <td>10</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Jess</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>34</td>
+        </tr>
+    </table>
+</body>
+</html>

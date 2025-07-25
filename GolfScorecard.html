@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Golf Scorecard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Pseudo-class example */
+        tr:hover {
+            background-color: #d1ecf1;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Golf Scorecard</h1>
+    <table>
+        <tr>
+            <th>Player</th>
+            <th>Hole 1</th>
+            <th>Hole 2</th>
+            <th>Hole 3</th>
+            <th>Hole 4</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>4</td>
+            <td>3</td>
+            <td>5</td>
+            <td>4</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>5</td>
+            <td>4</td>
+            <td>4</td>
+            <td>5</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body>
+</html>
