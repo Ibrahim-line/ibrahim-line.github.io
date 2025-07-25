@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Menus</title>
+<style>
+  body {
+    display: flex;
+    gap: 20px;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+
+  .menu {
+    width: 400px;
+    height: 550px;
+    border: 3px solid #333;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .breakfast {
+    background: url('https://via.placeholder.com/400x550?text=Breakfast') no-repeat center/cover;
+  }
+
+  .lunch {
+    background: url('https://via.placeholder.com/400x550?text=Lunch') no-repeat center/cover;
+  }
+
+  .dinner {
+    background: url('https://via.placeholder.com/400x550?text=Dinner') no-repeat center/cover;
+  }
+</style>
+</head>
+<body>
+  <div class="menu breakfast">
+    <h2>Breakfast Menu</h2>
+    <p>Pancakes - $5.99</p>
+    <p>Omelet - $6.99</p>
+    <p>Coffee - $1.99</p>
+  </div>
+
+  <div class="menu lunch">
+    <h2>Lunch Menu</h2>
+    <p>Burger - $8.99</p>
+    <p>Salad - $7.99</p>
+    <p>Iced Tea - $1.99</p>
+  </div>
+
+  <div class="menu dinner">
+    <h2>Dinner Menu</h2>
+    <p>Steak - $14.99</p>
+    <p>Pasta - $12.99</p>
+    <p>Wine - $6.99</p>
+  </div>
+</body>
+</html>
